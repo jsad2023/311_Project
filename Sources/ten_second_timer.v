@@ -35,7 +35,8 @@ module ten_second_timer(
     wire ten_second_enable;
     
     //card generation//////////////////////////////////////////////////////////////////////////////////////////////
-    reg [6:0] i, j, k;
+    reg [6:0]  j, k;
+    reg [8:0] i;
     reg [5:0] cards[0:51];
     integer b, g;
     reg [5:0] playercards[0:10];
